@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: #FCFCFD;
+    --color-card: #FFFFFF;
+    --color-text-main: #0F172A;
+    --color-text-muted: #64748B;
+    --color-accent: #D97706;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.02em;
+  }
+
+  .font-editorial {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Minimalist Glass Surfaces */
+.glass-clean {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(241, 245, 249, 1);
+}
+
+.glass-dark {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Smooth Drag to Scroll Classes */
+.draggable-scroll-container {
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  touch-action: pan-x;
+}
+
+.draggable-scroll-container:active,
+.draggable-scroll-container.active-drag {
+  cursor: grabbing !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Subtle Aura Glow Gradients */
+.aura-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(245, 158, 11, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.aura-amber {
+  background: radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(245, 158, 11, 0.06), transparent 40%);
+}
+
+.minimal-grid {
+  background-image: radial-gradient(rgba(148, 163, 184, 0.18) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Refined Minimalist Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Utility for hiding scrollbar while keeping scrollable */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
