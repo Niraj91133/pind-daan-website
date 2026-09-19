@@ -14,7 +14,7 @@ export default function IntentDesk() {
     {
       id: 'pind-daan',
       title: lang === 'hi' ? 'पिंडदान सेवा' : lang === 'en' ? 'Pind Daan Sewa' : 'পিণ্ডদান সেবা',
-      desc: lang === 'hi' ? 'गया जी में 1-दिन, 3-दिन या संपूर्ण 45-वेदी पिंडदान एवं श्राद्ध विधि।' : lang === 'en' ? '1-Day, 3-Day or complete 45-Vedi Pind Daan rituals in Gaya Ji.' : 'গয়া জীতে ১-দিন, ৩-দিন বা সম্পূর্ণ ৪৫-বেদি পিণ্ডদান ও শ্রাদ্ধ বিধি।',
+      desc: lang === 'hi' ? 'गया जी में 1-दिन, 3-दिन या संपूर्ण 54-वेदी पिंडदान एवं श्राद्ध विधि।' : lang === 'en' ? '1-Day, 3-Day or complete 54-Vedi Pind Daan rituals in Gaya Ji.' : 'গয়া জীতে ১-দিন, ৩-দিন বা সম্পূর্ণ ৫৪-বেদি পিণ্ডদান ও শ্রাদ্ধ বিধি।',
       icon: Compass,
       link: '/sewa/1-day',
       badge: lang === 'hi' ? 'मुख्य सेवा' : lang === 'en' ? 'Primary Sewa' : 'প্রধান সেবা',

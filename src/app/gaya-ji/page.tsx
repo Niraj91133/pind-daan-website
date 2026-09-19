@@ -19,7 +19,7 @@ export default function GayaJiGuidePage() {
             Gaya Ji Pilgrimage Guide
           </h1>
           <p className="text-sm sm:text-base text-slate-500 font-normal">
-            Bhagwan Vishnu ke charan paduka, Falgu nadi, Akshayavat tree evam sacred 45 Vediyon ka purna guide.
+            Bhagwan Vishnu ke charan paduka, Falgu nadi, Akshayavat tree evam sacred 54 Vediyon ka purna guide.
           </p>
         </div>
 
@@ -73,17 +73,17 @@ export default function GayaJiGuidePage() {
           ))}
         </div>
 
-        {/* 45 Vedis List */}
+        {/* 54 Vedis List */}
         <div className="p-8 sm:p-10 rounded-3xl bg-slate-900 text-white border border-slate-800 space-y-6 shadow-card">
           <div>
             <span className="text-xs font-bold text-amber-400 uppercase tracking-wider block">
               Sacred Vedis
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-white mt-1">
-              Gaya Ji Ki 45 Mukhya Vediyan
+              Gaya Ji Ki 54 Mukhya Vediyan
             </h2>
             <p className="text-xs sm:text-sm text-slate-400 mt-1">
-              Purna 3-day Gaya Shradh mein shamil 45 pavitra vediyan:
+              Purna 3-day Gaya Shradh mein shamil 54 pavitra vediyan:
             </p>
           </div>
 

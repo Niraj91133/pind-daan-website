@@ -117,10 +117,10 @@ export const ALL_SEWAS: SewaItem[] = [
     id: '3-day-pind-daan',
     slug: '3-day',
     title: '3 Din Ki Purna Gaya Ji Sewa',
-    title_hi: '3 दिन की संपूर्ण 45-वेदी तीर्थ यात्रा',
+    title_hi: '3 दिन की संपूर्ण 54-वेदी तीर्थ यात्रा',
     title_en: '3-Day Complete Pilgrimage Rituals',
-    title_bn: '৩ দিনের সম্পূর্ণ ৪৫-বেদি তীর্থযাত্রা',
-    subtitle: 'वैदिक शास्त्रों के अनुसार गया जी के समस्त मुख्य 45 वेदियों एवं तीर्थों की संपूर्ण यात्रा।',
+    title_bn: '৩ দিনের সম্পূর্ণ ৫৪-বেদি তীর্থযাত্রা',
+    subtitle: 'वैदिक शास्त्रों के अनुसार गया जी के समस्त मुख्य 54 वेदियों एवं तीर्थों की संपूर्ण यात्रा।',
     subtitle_hi: 'प्रेतशिला, रामशिला, फल्गु, विष्णुपद व अक्षयवट पर विस्तृत पितृ तर्पण।',
     subtitle_en: 'Pretshila, Ramshila, Falgu, Vishnupad and Akshayavat comprehensive Yatra.',
     subtitle_bn: 'প্রেতশিলা, রামশিলা, ফল্গু, বিষ্ণুপাদ ও অক্ষয়বটে বিস্তৃত পিতৃ তর্পণ।',
@@ -382,7 +382,7 @@ export const ALL_SEWAS: SewaItem[] = [
     whatWeArrange_hi: [
       'समर्पित वातानुकूलित वाहन (Sedan / SUV)',
       'अनुभवी व विनम्र स्थानीय सारथी',
-      'सभी 45-वेदी व तीर्थ स्थलों का भ्रमण'
+      'सभी 54-वेदी व तीर्थ स्थलों का भ्रमण'
     ],
     whatWeArrange_en: [
       'Dedicated AC Sedan / SUV / Innova',

@@ -89,7 +89,7 @@ export default function GayaJiPilgrimage() {
           })}
         </div>
 
-        {/* 45 Vedis Directory Card */}
+        {/* 54 Vedis Directory Card */}
         <div className="p-6 sm:p-8 rounded-3xl bg-slate-900 text-white border border-slate-800 shadow-card">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
             <div>

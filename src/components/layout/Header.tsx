@@ -3,16 +3,16 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { 
-  Phone, 
-  MessageSquare, 
-  Menu, 
-  X, 
-  ArrowRight, 
-  Compass, 
-  BookOpen, 
-  MapPin, 
-  Users, 
+import {
+  Phone,
+  MessageSquare,
+  Menu,
+  X,
+  ArrowRight,
+  Compass,
+  BookOpen,
+  MapPin,
+  Users,
   HelpCircle,
   ChevronRight,
   Globe,
@@ -27,33 +27,33 @@ export default function Header() {
   const { lang, setLang, t } = useLanguage();
 
   const NAV_ITEMS = [
-    { 
-      href: '/sewa', 
-      label: t('nav_sewa'), 
+    {
+      href: '/sewa',
+      label: t('nav_sewa'),
       icon: Compass,
       desc: lang === 'hi' ? '1-दिन, 3-दिन, त्रिपिंडी एवं नारायण बलि' : lang === 'en' ? '1-Day, 3-Day, Tripindi & Narayan Bali' : '১-দিন, ৩-দিন, ত্রিপিন্ডী ও নারায়ণ বলি'
     },
-    { 
-      href: '/jankari', 
-      label: t('nav_jankari'), 
+    {
+      href: '/jankari',
+      label: t('nav_jankari'),
       icon: BookOpen,
       desc: lang === 'hi' ? 'पिंडदान एवं श्राद्ध शास्त्रोक्त विधि' : lang === 'en' ? 'Pind Daan & Shradh Vedic Rules' : 'পিণ্ডদান ও শ্রাদ্ধ শাস্ত্রীয় বিধি'
     },
-    { 
-      href: '/gaya-ji', 
-      label: t('nav_gayaji'), 
+    {
+      href: '/gaya-ji',
+      label: t('nav_gayaji'),
       icon: MapPin,
-      desc: lang === 'hi' ? 'विष्णुपद, फल्गु एवं 45 पवित्र वेदियां' : lang === 'en' ? 'Vishnupad, Falgu & 45 Sacred Vedis' : 'বিষ্ণুপাদ, ফল্গু ও ৪৫ পবিত্র বেদি'
+      desc: lang === 'hi' ? 'विष्णुपद, फल्गु एवं 54 पवित्र वेदियां' : lang === 'en' ? 'Vishnupad, Falgu & 54 Sacred Vedis' : 'বিষ্ণুপাদ, ফল্গু ও ৫৪ পবিত্র বেদি'
     },
-    { 
-      href: '/pandit', 
-      label: t('nav_pandit'), 
+    {
+      href: '/pandit',
+      label: t('nav_pandit'),
       icon: Users,
       desc: lang === 'hi' ? 'प्रमाणित गयावाल तीर्थ पुरोहित' : lang === 'en' ? 'Verified Gayawal Teerth Purohits' : 'প্রমাণিত গয়াবাল তীর্থ পুরোহিত'
     },
-    { 
-      href: '/sahayata', 
-      label: t('nav_sahayata'), 
+    {
+      href: '/sahayata',
+      label: t('nav_sahayata'),
       icon: HelpCircle,
       desc: lang === 'hi' ? 'अक्सर पूछे जाने वाले सवाल एवं सहायता' : lang === 'en' ? 'FAQs & Pilgrimage Assistance' : 'সাধারণ জিজ্ঞাসা ও ভ্রমণ সহায়তা'
     },
@@ -78,16 +78,15 @@ export default function Header() {
   }, [mobileMenuOpen]);
 
   return (
-    <header 
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        scrolled 
-          ? 'bg-white/95 backdrop-blur-xl border-b border-slate-200/90 shadow-sm py-2.5' 
+    <header
+      className={`sticky top-0 z-50 transition-all duration-300 ${scrolled
+          ? 'bg-white/95 backdrop-blur-xl border-b border-slate-200/90 shadow-sm py-2.5'
           : 'bg-white/95 backdrop-blur-md border-b border-slate-100 py-3 sm:py-3.5'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          
+
           {/* Clean Logo Mark (Verified badge removed as requested) */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-gradient-to-br from-amber-500 via-amber-600 to-saffron-700 flex items-center justify-center text-white shadow-subtle group-hover:scale-105 transition-transform flex-shrink-0">
@@ -111,11 +110,10 @@ export default function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`px-3.5 py-1.5 rounded-full text-xs font-bold tracking-normal transition-all ${
-                    isActive
+                  className={`px-3.5 py-1.5 rounded-full text-xs font-bold tracking-normal transition-all ${isActive
                       ? 'bg-white text-slate-950 shadow-sm border border-slate-200/70'
                       : 'text-slate-600 hover:text-slate-950 hover:bg-white/60'
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </Link>
@@ -125,39 +123,36 @@ export default function Header() {
 
           {/* Right Action Stack: Apple-style Segmented Language Switcher + Call + CTA */}
           <div className="hidden sm:flex items-center gap-2.5">
-            
+
             {/* Apple-style Segmented Language Switcher */}
             <div className="flex items-center bg-slate-100 p-1 rounded-full border border-slate-200 shadow-inner">
               <button
                 type="button"
                 onClick={() => setLang('hi')}
-                className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition-all ${
-                  lang === 'hi' 
-                    ? 'bg-white text-amber-900 shadow-sm' 
+                className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition-all ${lang === 'hi'
+                    ? 'bg-white text-amber-900 shadow-sm'
                     : 'text-slate-600 hover:text-slate-900'
-                }`}
+                  }`}
               >
                 हिंदी
               </button>
               <button
                 type="button"
                 onClick={() => setLang('en')}
-                className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition-all ${
-                  lang === 'en' 
-                    ? 'bg-white text-amber-900 shadow-sm' 
+                className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition-all ${lang === 'en'
+                    ? 'bg-white text-amber-900 shadow-sm'
                     : 'text-slate-600 hover:text-slate-900'
-                }`}
+                  }`}
               >
                 EN
               </button>
               <button
                 type="button"
                 onClick={() => setLang('bn')}
-                className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition-all ${
-                  lang === 'bn' 
-                    ? 'bg-white text-amber-900 shadow-sm' 
+                className={`px-2.5 py-1 rounded-full text-[11px] font-bold transition-all ${lang === 'bn'
+                    ? 'bg-white text-amber-900 shadow-sm'
                     : 'text-slate-600 hover:text-slate-900'
-                }`}
+                  }`}
               >
                 বাংলা
               </button>
@@ -196,33 +191,30 @@ export default function Header() {
 
           {/* Mobile Header Action Stack */}
           <div className="flex items-center gap-2 sm:hidden">
-            
+
             {/* Quick Language Toggle Pill on Mobile */}
             <div className="flex items-center bg-slate-100 p-0.5 rounded-full border border-slate-200">
               <button
                 type="button"
                 onClick={() => setLang('hi')}
-                className={`px-2 py-1 rounded-full text-[10px] font-bold ${
-                  lang === 'hi' ? 'bg-white text-amber-900 shadow-sm' : 'text-slate-500'
-                }`}
+                className={`px-2 py-1 rounded-full text-[10px] font-bold ${lang === 'hi' ? 'bg-white text-amber-900 shadow-sm' : 'text-slate-500'
+                  }`}
               >
                 हिं
               </button>
               <button
                 type="button"
                 onClick={() => setLang('en')}
-                className={`px-2 py-1 rounded-full text-[10px] font-bold ${
-                  lang === 'en' ? 'bg-white text-amber-900 shadow-sm' : 'text-slate-500'
-                }`}
+                className={`px-2 py-1 rounded-full text-[10px] font-bold ${lang === 'en' ? 'bg-white text-amber-900 shadow-sm' : 'text-slate-500'
+                  }`}
               >
                 EN
               </button>
               <button
                 type="button"
                 onClick={() => setLang('bn')}
-                className={`px-2 py-1 rounded-full text-[10px] font-bold ${
-                  lang === 'bn' ? 'bg-white text-amber-900 shadow-sm' : 'text-slate-500'
-                }`}
+                className={`px-2 py-1 rounded-full text-[10px] font-bold ${lang === 'bn' ? 'bg-white text-amber-900 shadow-sm' : 'text-slate-500'
+                  }`}
               >
                 বাং
               </button>
@@ -254,9 +246,9 @@ export default function Header() {
       {mobileMenuOpen && (
         <div className="fixed inset-0 top-[58px] z-50 bg-slate-950/60 backdrop-blur-md sm:hidden animate-fadeIn">
           <div className="bg-white h-full max-w-sm w-full ml-auto shadow-2xl p-5 overflow-y-auto flex flex-col justify-between border-l border-slate-100">
-            
+
             <div className="space-y-4">
-              
+
               {/* Mobile Drawer Header */}
               <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                 <div>
@@ -284,33 +276,30 @@ export default function Header() {
                   <button
                     type="button"
                     onClick={() => setLang('hi')}
-                    className={`py-2 rounded-xl text-xs font-bold transition-all ${
-                      lang === 'hi' 
-                        ? 'bg-white text-amber-900 shadow-sm' 
+                    className={`py-2 rounded-xl text-xs font-bold transition-all ${lang === 'hi'
+                        ? 'bg-white text-amber-900 shadow-sm'
                         : 'text-slate-600 hover:text-slate-900'
-                    }`}
+                      }`}
                   >
                     हिंदी
                   </button>
                   <button
                     type="button"
                     onClick={() => setLang('en')}
-                    className={`py-2 rounded-xl text-xs font-bold transition-all ${
-                      lang === 'en' 
-                        ? 'bg-white text-amber-900 shadow-sm' 
+                    className={`py-2 rounded-xl text-xs font-bold transition-all ${lang === 'en'
+                        ? 'bg-white text-amber-900 shadow-sm'
                         : 'text-slate-600 hover:text-slate-900'
-                    }`}
+                      }`}
                   >
                     English
                   </button>
                   <button
                     type="button"
                     onClick={() => setLang('bn')}
-                    className={`py-2 rounded-xl text-xs font-bold transition-all ${
-                      lang === 'bn' 
-                        ? 'bg-white text-amber-900 shadow-sm' 
+                    className={`py-2 rounded-xl text-xs font-bold transition-all ${lang === 'bn'
+                        ? 'bg-white text-amber-900 shadow-sm'
                         : 'text-slate-600 hover:text-slate-900'
-                    }`}
+                      }`}
                   >
                     বাংলা
                   </button>
@@ -327,16 +316,14 @@ export default function Header() {
                       key={item.href}
                       href={item.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className={`flex items-center justify-between p-3.5 rounded-2xl transition-all ${
-                        isActive 
-                          ? 'bg-amber-50 text-amber-900 border border-amber-200' 
+                      className={`flex items-center justify-between p-3.5 rounded-2xl transition-all ${isActive
+                          ? 'bg-amber-50 text-amber-900 border border-amber-200'
                           : 'hover:bg-slate-50 text-slate-800'
-                      }`}
+                        }`}
                     >
                       <div className="flex items-center gap-3">
-                        <div className={`w-9 h-9 rounded-xl flex items-center justify-center ${
-                          isActive ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-700'
-                        }`}>
+                        <div className={`w-9 h-9 rounded-xl flex items-center justify-center ${isActive ? 'bg-amber-500 text-white' : 'bg-slate-100 text-slate-700'
+                          }`}>
                           <IconComp className="w-4 h-4" />
                         </div>
                         <div>

@@ -23,7 +23,7 @@ export default function AcharyaProfile() {
           highlights: [
             'শাস্ত্রীয় বৈদিক মন্ত্র ও সংকল্প',
             'প্রাচীন বংশানুক্রমিক খাতা যাচাই',
-            'সম্পূর্ণ ৪৫-বেদি ও তীর্থ জ্ঞান',
+            'সম্পূর্ণ ৫৪-বেদি ও তীর্থ জ্ঞান',
             'সরাসরি ২৪x৭ পরামর্শ ও সহায়তা'
           ],
           callBtn: '+91 91993 42604',
@@ -44,7 +44,7 @@ export default function AcharyaProfile() {
           highlights: [
             'Strict Vedic Mantras & Sankalp',
             'Ancient Genealogical Ledger (Bahi-Khata)',
-            'Complete 45-Vedi Sacred Knowledge',
+            'Complete 54-Vedi Sacred Knowledge',
             'Direct 24x7 Consultation & Care'
           ],
           callBtn: '+91 91993 42604',
@@ -65,7 +65,7 @@ export default function AcharyaProfile() {
           highlights: [
             'शुद्ध शास्त्रीय वैदिक मंत्र एवं संकल्प',
             'प्राचीन बही-खाता वंशावली मिलान',
-            'समस्त 45-वेदी एवं तीर्थ स्थलों का ज्ञान',
+            'समस्त 54-वेदी एवं तीर्थ स्थलों का ज्ञान',
             'सीधा 24x7 पुरोहित संपर्क व परामर्श'
           ],
           callBtn: '+91 91993 42604',

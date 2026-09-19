@@ -30,19 +30,19 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hero_badge_1: 'पितृ पक्ष विशेष सेवा 2026 • फल्गु देवघाट',
     hero_title_1: 'गया जी पितृ पक्ष पिंडदान एवं तर्पण सेवा',
     hero_sub_1: 'पावन फल्गु तट पर 60+ वर्षों की परंपरा से जुड़े गयावाल तीर्थ पुरोहित द्वारा शास्त्रोक्त पितृ तर्पण एवं संपूर्ण पिंडदान।',
-    
+
     hero_badge_2: 'श्री विष्णुपद चरणकमल • पावन मोक्ष तीर्थ',
     hero_title_2: 'विष्णुपद के पावन सान्निध्य में संपूर्ण पिंडदान',
     hero_sub_2: 'भगवान विष्णु के चरणारविंद पर पितरों की परम सद्गति एवं मोक्ष प्राप्ति हेतु प्रामाणिक गयावाल पुरोहित संकल्प।',
 
-    hero_badge_3: 'अक्षयवट तीर्थ • 45 पवित्र वेदी परिक्रमा',
+    hero_badge_3: 'अक्षयवट तीर्थ • 54 पवित्र वेदी परिक्रमा',
     hero_title_3: 'अक्षयवट के सान्निध्य में पितरों की अक्षय मुक्ति',
-    hero_sub_3: 'अक्षयवट एवं गया जी की सभी 45 वेदियों पर सहज, पारदर्शी एवं सम्पूर्ण पारिवारिक सुविधा के साथ पिंडदान संपन्न कराएं।',
+    hero_sub_3: 'अक्षयवट एवं गया जी की सभी 54 वेदियों पर सहज, पारदर्शी एवं सम्पूर्ण पारिवारिक सुविधा के साथ पिंडदान संपन्न कराएं।',
 
     hero_cta_start: 'पितृ पक्ष सेवा शुरू करें (Sewa Request)',
     hero_cta_call: 'पुरोहित जी से बात करें (+91 91993 42604)',
     trust_60yrs: '60+ वर्ष गयावाल पुरोहित परंपरा',
-    trust_45vedis: '45 पवित्र वेदियों का मार्गदर्शन',
+    trust_45vedis: '54 पवित्र वेदियों का मार्गदर्शन',
     trust_family: '100% व्यक्तिगत परिवार सहायता',
 
     // Intent Desk
@@ -79,10 +79,10 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     // Gaya Ji
     gayaji_tag: 'पवित्र क्षेत्र गाइड',
     gayaji_title: 'गया जी पवित्र तीर्थ क्षेत्र',
-    gayaji_sub: 'विष्णुपद, फल्गु देवघाट, अक्षयवट एवं 45 पवित्र वेदियों की महिमा।',
+    gayaji_sub: 'विष्णुपद, फल्गु देवघाट, अक्षयवट एवं 54 पवित्र वेदियों की महिमा।',
     gayaji_view_all: 'पूर्ण गया जी गाइड देखें',
-    gayaji_vedis_title: 'गया जी की 45 मुख्य पवित्र वेदियां',
-    gayaji_vedis_btn: '45 वेदियों की विस्तृत जानकारी',
+    gayaji_vedis_title: 'गया जी की 54 मुख्य पवित्र वेदियां',
+    gayaji_vedis_btn: '54 वेदियों की विस्तृत जानकारी',
 
     // FAQ
     faq_tag: 'सहायता एवं स्पष्टता',
@@ -117,14 +117,14 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hero_title_2: 'Complete Pind Daan at Sacred Vishnupad Footprints',
     hero_sub_2: 'Vedic ancestral rituals and authentic Gotra Sankalp directly at the lotus footprints of Lord Vishnu for eternal liberation.',
 
-    hero_badge_3: 'Akshayavat Kshetra • 45 Sacred Vedis Pilgrimage',
+    hero_badge_3: 'Akshayavat Kshetra • 54 Sacred Vedis Pilgrimage',
     hero_title_3: 'Eternal Ancestral Liberation at Holy Akshayavat',
-    hero_sub_3: 'Complete 45-Vedi Gaya Ji Pind Daan with personal family care, clean accommodation & transparent assistance.',
+    hero_sub_3: 'Complete 54-Vedi Gaya Ji Pind Daan with personal family care, clean accommodation & transparent assistance.',
 
     hero_cta_start: 'Start Pitru Paksha Sewa (Request)',
     hero_cta_call: 'Talk to Purohit (+91 91993 42604)',
     trust_60yrs: '60+ Yrs Gayawal Purohit Lineage',
-    trust_45vedis: '45 Sacred Vedis Guidance',
+    trust_45vedis: '54 Sacred Vedis Guidance',
     trust_family: '100% Personal Family Assistance',
 
     // Intent Desk
@@ -161,10 +161,10 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     // Gaya Ji
     gayaji_tag: 'Pilgrimage Destination Guide',
     gayaji_title: 'Explore Sacred Gaya Ji Kshetra',
-    gayaji_sub: 'The spiritual glory of Shri Vishnupad, Falgu Devghat, Akshayavat & 45 Sacred Vedis.',
+    gayaji_sub: 'The spiritual glory of Shri Vishnupad, Falgu Devghat, Akshayavat & 54 Sacred Vedis.',
     gayaji_view_all: 'View Full Gaya Ji Guide',
-    gayaji_vedis_title: '45 Sacred Vedis of Gaya Ji Kshetra',
-    gayaji_vedis_btn: 'Explore 45 Vedis Directory',
+    gayaji_vedis_title: '54 Sacred Vedis of Gaya Ji Kshetra',
+    gayaji_vedis_btn: 'Explore 54 Vedis Directory',
 
     // FAQ
     faq_tag: 'Clarity & FAQs',
@@ -199,14 +199,14 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hero_title_2: 'বিষ্ণুপাদের পবিত্র সান্নিধ্যে সম্পূর্ণ পিণ্ডদান',
     hero_sub_2: 'শ্রী বিষ্ণুপাদের চরণপদ্মে পূর্বপুরুষদের আত্মার সদগতির জন্য শাস্ত্রীয় ও প্রামাণিক সংকল্প।',
 
-    hero_badge_3: 'অক্ষয়বট তীর্থ • ৪৫ পবিত্র বেদি পরিক্রমা',
+    hero_badge_3: 'অক্ষয়বট তীর্থ • ৫৪ পবিত্র বেদি পরিক্রমা',
     hero_title_3: 'অক্ষয়বটের সান্নিধ্যে পিতৃপুরুষের অক্ষয় মুক্তি',
-    hero_sub_3: 'অক্ষয়বট এবং গয়া জীর ৪৫টি পবিত্র বেদিতে সহজ, স্বচ্ছ ও পারিবারিক সেবার সাথে পিণ্ডদান।',
+    hero_sub_3: 'অক্ষয়বট এবং গয়া জীর ৫৪টি পবিত্র বেদিতে সহজ, স্বচ্ছ ও পারিবারিক সেবার সাথে পিণ্ডদান।',
 
     hero_cta_start: 'পিতৃপক্ষ সেবা শুরু করুন (Request)',
     hero_cta_call: 'পুরোহিতের সাথে কথা বলুন (+91 91993 42604)',
     trust_60yrs: '৬০+ বছর গয়াবাল পুরোহিত পরম্পরা',
-    trust_45vedis: '৪৫টি পবিত্র বেদির নির্দেশিকা',
+    trust_45vedis: '৫৪টি পবিত্র বেদির নির্দেশিকা',
     trust_family: '১০০% ব্যক্তিগত পারিবারিক সহায়তা',
 
     // Intent Desk
@@ -243,10 +243,10 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     // Gaya Ji
     gayaji_tag: 'তীর্থস্থান নির্দেশিকা',
     gayaji_title: 'গয়া জী পবিত্র তীর্থ পরিক্রমা',
-    gayaji_sub: 'বিষ্ণুপাদ, ফল্গু দেবঘাট, অক্ষয়বট ও ৪৫টি পবিত্র বেদির মহিমা।',
+    gayaji_sub: 'বিষ্ণুপাদ, ফল্গু দেবঘাট, অক্ষয়বট ও ৫৪টি পবিত্র বেদির মহিমা।',
     gayaji_view_all: 'সম্পূর্ণ গয়া জী গাইড দেখুন',
-    gayaji_vedis_title: 'গয়া জীর ৪৫টি প্রধান পবিত্র বেদি',
-    gayaji_vedis_btn: '৪৫ বেদির তথ্য দেখুন',
+    gayaji_vedis_title: 'গয়া জীর ৫৪টি প্রধান পবিত্র বেদি',
+    gayaji_vedis_btn: '৫৪ বেদির তথ্য দেখুন',
 
     // FAQ
     faq_tag: 'সহায়তা ও স্পষ্টতা',
@@ -261,7 +261,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
 
 const LanguageContext = createContext<LanguageContextType>({
   lang: 'hi',
-  setLang: () => {},
+  setLang: () => { },
   t: (key: string) => key,
 });
 

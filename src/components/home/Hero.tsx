@@ -48,9 +48,9 @@ const PITRU_PAKSHA_SLIDES = [
     id: 3,
     image: '/images/pitru_paksha_akshayavat.jpg',
     tag: {
-      hi: 'अक्षयवट एवं 45 पवित्र वेदियां',
-      en: 'Akshayavat & 45 Sacred Vedis',
-      bn: 'অক্ষয়বট ও ৪৫টি পবিত্র বেদি'
+      hi: 'अक्षयवट एवं 54 पवित्र वेदियां',
+      en: 'Akshayavat & 54 Sacred Vedis',
+      bn: 'অক্ষয়বট ও ৫৪টি পবিত্র বেদি'
     },
     title: {
       hi: 'अक्षयवट के साक्षात आशीर्वाद से अक्षय तृप्ति',
@@ -58,9 +58,9 @@ const PITRU_PAKSHA_SLIDES = [
       bn: 'অক্ষয়বটের সান্নিধ্যে অক্ষয় তৃপ্তি'
     },
     subtitle: {
-      hi: 'अक्षयवट एवं 45 वेदियों पर सहज, पारदर्शी एवं सम्पूर्ण पारिवारिक व्यवस्था के साथ पिंडदान।',
-      en: 'Complete 45-Vedi Gaya Ji pilgrimage with personal guidance, clean stay & transparent care.',
-      bn: 'অক্ষয়বট এবং ৪৫টি বেদিতে স্বচ্ছ ও পারিবারিক সুবিধার সাথে সম্পূর্ণ পিণ্ডদান।'
+      hi: 'अक्षयवट एवं 54 वेदियों पर सहज, पारदर्शी एवं सम्पूर्ण पारिवारिक व्यवस्था के साथ पिंडदान।',
+      en: 'Complete 54-Vedi Gaya Ji pilgrimage with personal guidance, clean stay & transparent care.',
+      bn: 'অক্ষয়বট এবং ৫৪টি বেদিতে স্বচ্ছ ও পারিবারিক সুবিধার সাথে সম্পূর্ণ পিণ্ডদান।'
     }
   }
 ];

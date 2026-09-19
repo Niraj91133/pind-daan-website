@@ -26,7 +26,7 @@ export const VERIFIED_PANDITS: PanditProfile[] = [
     experienceYears: 60,
     languages: ['Hindi', 'English', 'Bhojpuri', 'Bengali', 'Sanskrit'],
     specializations: [
-      'Purna Gaya Ji Pind Daan (45 Vediyan)',
+      'Purna Gaya Ji Pind Daan (54 Vediyan)',
       'Tripindi Shradh & Narayan Bali',
       'Gotra Sankalp & Pitru Sukta Path',
       'Bengali & Maithili Paddhati Shradh'
