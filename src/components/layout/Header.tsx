@@ -15,7 +15,8 @@ import {
   Users, 
   HelpCircle,
   ChevronRight,
-  Globe
+  Globe,
+  Instagram
 } from 'lucide-react';
 import { useLanguage, Language } from '@/lib/context/LanguageContext';
 
@@ -172,13 +173,24 @@ export default function Header() {
               <span>{t('talk_to_pundit')}</span>
             </a>
 
+            {/* Instagram Link */}
+            <a
+              href="https://www.instagram.com/pinddaansewa?stkn=MTU5ZGRrZGEyaDIzMQ=="
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram @pinddaansewa"
+              className="w-8 h-8 rounded-full bg-pink-50 hover:bg-pink-100 text-pink-600 flex items-center justify-center border border-pink-200 shadow-subtle transition-all hover:scale-105"
+            >
+              <Instagram className="w-4 h-4" />
+            </a>
+
             {/* Primary Action CTA */}
             <Link
               href="/sewa-request"
               className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full text-xs font-bold text-white bg-gradient-to-r from-amber-500 via-amber-600 to-saffron-600 hover:from-amber-600 hover:to-saffron-700 shadow-card hover:shadow-glow transition-all hover:scale-105"
             >
               <span>{t('start_sewa')}</span>
-              <ArrowRight className="w-3.5 h-3.5" />
+              <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -362,6 +374,16 @@ export default function Header() {
               >
                 <MessageSquare className="w-4 h-4" />
                 <span>WhatsApp Coordinator</span>
+              </a>
+
+              <a
+                href="https://www.instagram.com/pinddaansewa?stkn=MTU5ZGRrZGEyaDIzMQ=="
+                target="_blank"
+                rel="noreferrer"
+                className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl text-xs font-bold text-white bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-95 transition-opacity shadow-sm"
+              >
+                <Instagram className="w-4 h-4" />
+                <span>Follow on Instagram (@pinddaansewa)</span>
               </a>
 
               <Link

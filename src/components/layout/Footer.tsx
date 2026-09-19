@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Phone, MessageSquare, Sparkles } from 'lucide-react';
+import { Phone, MessageSquare, Sparkles, Instagram } from 'lucide-react';
 import { useLanguage } from '@/lib/context/LanguageContext';
 
 export default function Footer() {
@@ -15,6 +15,7 @@ export default function Footer() {
           brandDesc: 'গয়া জী পিণ্ডদান ও শ্রাদ্ধ কর্মের নির্ভরযোগ্য ডিজিটাল সেবা ডেস্ক। অনুমোদিত তীর্থ পুরোহিত, শাস্ত্রীয় বিধি ও স্বচ্ছ তীর্থযাত্রা সহায়তা।',
           tagline: 'আপনার সেবা। পূর্বপুরুষদের চরণে অর্পণ।',
           waDesk: 'হোয়াটসঅ্যাপ ডেস্ক',
+          instaDesk: 'ইনস্টাগ্রাম',
           col1Title: 'সেবা নির্দেশিকা',
           col2Title: 'গয়া জী ও পুরোহিত',
           col3Title: 'সহায়তা ও তথ্য',
@@ -29,6 +30,7 @@ export default function Footer() {
           brandDesc: 'Gaya Ji Pind Daan with verified Teerth Purohits, authentic Vedic rituals, transparent coordination, and dedicated family assistance.',
           tagline: 'Dedicated Pilgrimage Desk. Honouring Sacred Lineages.',
           waDesk: 'WhatsApp Desk',
+          instaDesk: 'Instagram',
           col1Title: 'Sewa Directory',
           col2Title: 'Gaya Ji & Purohits',
           col3Title: 'Help & Knowledge',
@@ -43,6 +45,7 @@ export default function Footer() {
           brandDesc: 'सत्यापित तीर्थ पुरोहित, शुद्ध शास्त्रीय वैदिक विधि, पारदर्शी व्यवस्था एवं परिवार यात्रा सहयोग — सब कुछ एक ही सहज डेस्क पर।',
           tagline: 'आपकी सेवा। आपके पितरों के नाम।',
           waDesk: 'व्हाट्सएप डेस्क',
+          instaDesk: 'इंस्टाग्राम',
           col1Title: 'सेवा निर्देशिका',
           col2Title: 'गया जी व पुरोहित',
           col3Title: 'सहायता व जानकारी',
@@ -85,7 +88,7 @@ export default function Footer() {
               <span>&quot;{content.tagline}&quot;</span>
             </div>
 
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            <div className="flex flex-wrap items-center gap-2.5 pt-2">
               <a
                 href="tel:+919199342604"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-slate-700 transition-colors"
@@ -101,6 +104,15 @@ export default function Footer() {
               >
                 <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
                 <span>{content.waDesk}</span>
+              </a>
+              <a
+                href="https://www.instagram.com/pinddaansewa?stkn=MTU5ZGRrZGEyaDIzMQ=="
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold text-white bg-pink-950/60 border border-pink-800/60 hover:bg-pink-900/80 transition-colors"
+              >
+                <Instagram className="w-3.5 h-3.5 text-pink-400" />
+                <span>@pinddaansewa</span>
               </a>
             </div>
           </div>

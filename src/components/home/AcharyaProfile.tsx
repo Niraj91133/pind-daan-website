@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Phone, MessageSquare, ShieldCheck, Award, BookOpen, Star, Sparkles, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Phone, MessageSquare, ShieldCheck, Award, BookOpen, Star, Sparkles, CheckCircle2, ArrowRight, Instagram } from 'lucide-react';
 import { useLanguage } from '@/lib/context/LanguageContext';
 
 export default function AcharyaProfile() {
@@ -141,23 +141,35 @@ export default function AcharyaProfile() {
               </div>
 
               {/* Action Buttons Under Image on Mobile/Desktop */}
-              <div className="w-full max-w-[360px] grid grid-cols-2 gap-3 mt-4">
-                <a
-                  href="tel:+919199342604"
-                  className="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-gradient-to-r from-amber-600 via-amber-700 to-saffron-600 hover:opacity-95 text-white font-bold text-xs tracking-wide shadow-sm active:scale-95 transition-all"
-                >
-                  <Phone className="w-3.5 h-3.5" />
-                  <span>{data.callBtn}</span>
-                </a>
+              <div className="w-full max-w-[360px] space-y-2.5 mt-4">
+                <div className="grid grid-cols-2 gap-3">
+                  <a
+                    href="tel:+919199342604"
+                    className="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-gradient-to-r from-amber-600 via-amber-700 to-saffron-600 hover:opacity-95 text-white font-bold text-xs tracking-wide shadow-sm active:scale-95 transition-all"
+                  >
+                    <Phone className="w-3.5 h-3.5" />
+                    <span>{data.callBtn}</span>
+                  </a>
+
+                  <a
+                    href="https://wa.me/919199342604"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-emerald-900 hover:bg-emerald-800 text-emerald-100 font-bold text-xs tracking-wide border border-emerald-700 active:scale-95 transition-all"
+                  >
+                    <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
+                    <span>{data.waBtn}</span>
+                  </a>
+                </div>
 
                 <a
-                  href="https://wa.me/919199342604"
+                  href="https://www.instagram.com/pinddaansewa?stkn=MTU5ZGRrZGEyaDIzMQ=="
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-emerald-900 hover:bg-emerald-800 text-emerald-100 font-bold text-xs tracking-wide border border-emerald-700 active:scale-95 transition-all"
+                  className="w-full inline-flex items-center justify-center gap-2 py-2.5 px-4 rounded-full bg-gradient-to-r from-purple-700 via-pink-600 to-amber-600 hover:opacity-95 text-white font-bold text-xs tracking-wide shadow-sm active:scale-95 transition-all"
                 >
-                  <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
-                  <span>{data.waBtn}</span>
+                  <Instagram className="w-3.5 h-3.5" />
+                  <span>Instagram: @pinddaansewa</span>
                 </a>
               </div>
             </div>
