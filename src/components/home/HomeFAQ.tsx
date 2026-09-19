@@ -84,7 +84,7 @@ export default function HomeFAQ() {
               {t('faq_all_btn')}
             </Link>
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919199342604"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors"

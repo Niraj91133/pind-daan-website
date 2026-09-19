@@ -94,7 +94,7 @@ export default function Header() {
             </div>
             <div>
               <span className="font-sans text-base sm:text-lg font-extrabold tracking-tight text-slate-900 group-hover:text-amber-600 transition-colors block leading-tight">
-                Gaya Ji Pind Sewa
+                Pind Daan Sewa
               </span>
               <span className="text-[10px] sm:text-[11px] text-slate-500 font-medium block">
                 {t('brand_subtitle')}
@@ -164,7 +164,7 @@ export default function Header() {
 
             {/* Direct Phone Call Button */}
             <a
-              href="tel:+919876543210"
+              href="tel:+919199342604"
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full text-xs font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 border border-slate-200 shadow-subtle transition-all"
             >
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
@@ -218,7 +218,7 @@ export default function Header() {
 
             {/* Quick Call Icon Button */}
             <a
-              href="tel:+919876543210"
+              href="tel:+919199342604"
               aria-label="Call Helpline"
               className="w-9 h-9 rounded-full bg-amber-50 text-amber-700 flex items-center justify-center border border-amber-200 shadow-subtle flex-shrink-0"
             >
@@ -249,7 +249,7 @@ export default function Header() {
               <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                 <div>
                   <div className="text-sm font-extrabold text-slate-900">
-                    Gaya Ji Pind Sewa
+                    Pind Daan Sewa
                   </div>
                   <div className="text-[11px] text-slate-500">
                     {t('brand_subtitle')}
@@ -347,15 +347,15 @@ export default function Header() {
             {/* Mobile Drawer Bottom Actions */}
             <div className="pt-4 border-t border-slate-100 space-y-2.5">
               <a
-                href="tel:+919876543210"
+                href="tel:+919199342604"
                 className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl text-xs font-bold text-slate-900 bg-slate-100 hover:bg-slate-200 border border-slate-200 transition-colors"
               >
                 <Phone className="w-4 h-4 text-amber-600" />
-                <span>Call Helpline: +91 98765 43210</span>
+                <span>Call Helpline: +91 91993 42604</span>
               </a>
 
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919199342604"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full flex items-center justify-center gap-2 py-3 rounded-2xl text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors shadow-sm"

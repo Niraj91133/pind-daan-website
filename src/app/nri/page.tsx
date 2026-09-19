@@ -81,7 +81,7 @@ export default function NRISewaPage() {
             </Link>
 
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919199342604"
               target="_blank"
               rel="noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-md bg-emerald-700 text-white font-bold text-xs"

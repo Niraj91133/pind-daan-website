@@ -96,15 +96,15 @@ export default function SahayataCenterPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-2">
             <a
-              href="tel:+919876543210"
+              href="tel:+919199342604"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-amber-600 to-saffron-600 hover:opacity-95 text-white font-bold text-xs tracking-wide shadow-sm"
             >
               <Phone className="w-4 h-4" />
-              <span>Call Helpline: +91 98765 43210</span>
+              <span>Call Helpline: +91 91993 42604</span>
             </a>
 
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919199342604"
               target="_blank"
               rel="noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-emerald-700 hover:bg-emerald-600 text-white font-bold text-xs tracking-wide shadow-sm"

@@ -23,7 +23,7 @@ export default function MobileBottomBar() {
         </Link>
 
         <a
-          href="tel:+919876543210"
+          href="tel:+919199342604"
           className="flex flex-col items-center justify-center py-1 rounded-2xl text-slate-700 hover:text-amber-600 transition-colors"
         >
           <Phone className="w-5 h-5 mb-0.5 text-amber-600" />
@@ -33,7 +33,7 @@ export default function MobileBottomBar() {
         </a>
 
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/919199342604"
           target="_blank"
           rel="noreferrer"
           className="flex flex-col items-center justify-center py-1 rounded-2xl text-slate-700 hover:text-emerald-600 transition-colors"

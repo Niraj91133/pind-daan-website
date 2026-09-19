@@ -14,9 +14,9 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
   hi: {
     // Header
     top_announcement: 'गया जी पावन तीर्थ सहायता डेस्क • 60+ वर्ष गयावाल तीर्थ पुरोहित परंपरा',
-    helpline: 'हेल्पलाइन: +91 98765 43210',
+    helpline: 'हेल्पलाइन: +91 91993 42604',
     whatsapp_live: 'व्हाट्सएप लाइव डेस्क',
-    brand_subtitle: 'गयावाल तीर्थ पुरोहित डिजिटल डेस्क',
+    brand_subtitle: 'पिंड दान सेवा • तीर्थ पुरोहित डिजिटल डेस्क',
     nav_sewa: 'सेवा सूची',
     nav_jankari: 'विधि एवं जानकारी',
     nav_gayaji: 'गया जी गाइड',
@@ -40,7 +40,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hero_sub_3: 'अक्षयवट एवं गया जी की सभी 45 वेदियों पर सहज, पारदर्शी एवं सम्पूर्ण पारिवारिक सुविधा के साथ पिंडदान संपन्न कराएं।',
 
     hero_cta_start: 'पितृ पक्ष सेवा शुरू करें (Sewa Request)',
-    hero_cta_call: 'पुरोहित जी से बात करें (+91 98765 43210)',
+    hero_cta_call: 'पुरोहित जी से बात करें (+91 91993 42604)',
     trust_60yrs: '60+ वर्ष गयावाल पुरोहित परंपरा',
     trust_45vedis: '45 पवित्र वेदियों का मार्गदर्शन',
     trust_family: '100% व्यक्तिगत परिवार सहायता',
@@ -96,9 +96,9 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
   en: {
     // Header
     top_announcement: 'Gaya Ji Pilgrimage Assistance Desk • 60+ Years Gayawal Purohit Tradition',
-    helpline: 'Helpline: +91 98765 43210',
+    helpline: 'Helpline: +91 91993 42604',
     whatsapp_live: 'WhatsApp Live Desk',
-    brand_subtitle: 'Gayawal Teerth Purohit Digital Desk',
+    brand_subtitle: 'Pind Daan Sewa • Teerth Purohit Desk',
     nav_sewa: 'Sewa Directory',
     nav_jankari: 'Vidhi & Guidance',
     nav_gayaji: 'Gaya Ji Guide',
@@ -122,7 +122,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hero_sub_3: 'Complete 45-Vedi Gaya Ji Pind Daan with personal family care, clean accommodation & transparent assistance.',
 
     hero_cta_start: 'Start Pitru Paksha Sewa (Request)',
-    hero_cta_call: 'Talk to Purohit (+91 98765 43210)',
+    hero_cta_call: 'Talk to Purohit (+91 91993 42604)',
     trust_60yrs: '60+ Yrs Gayawal Purohit Lineage',
     trust_45vedis: '45 Sacred Vedis Guidance',
     trust_family: '100% Personal Family Assistance',
@@ -178,9 +178,9 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
   bn: {
     // Header (Bengali)
     top_announcement: 'গয়া জী তীর্থ পুরোহিত সহায়তা ডেস্ক • ৬০+ বছরের গয়াবাল পুরোহিত ঐতিহ্য',
-    helpline: 'হেল্পলাইন: +৯১ ৯৮৭৬৫ ৪৩২১০',
+    helpline: 'হেল্পলাইন: +91 91993 42604',
     whatsapp_live: 'হোয়াটসঅ্যাপ লাইভ ডেস্ক',
-    brand_subtitle: 'গয়াবাল তীর্থ পুরোহিত ডিজিটাল ডেস্ক',
+    brand_subtitle: 'পিণ্ড দান সেবা • তীর্থ পুরোহিত ডিজিটাল ডেস্ক',
     nav_sewa: 'সেবা তালিকা',
     nav_jankari: 'বিধি ও নির্দেশিকা',
     nav_gayaji: 'গয়া জী গাইড',
@@ -204,7 +204,7 @@ const TRANSLATIONS: Record<Language, Record<string, string>> = {
     hero_sub_3: 'অক্ষয়বট এবং গয়া জীর ৪৫টি পবিত্র বেদিতে সহজ, স্বচ্ছ ও পারিবারিক সেবার সাথে পিণ্ডদান।',
 
     hero_cta_start: 'পিতৃপক্ষ সেবা শুরু করুন (Request)',
-    hero_cta_call: 'পুরোহিতের সাথে কথা বলুন (+91 98765 43210)',
+    hero_cta_call: 'পুরোহিতের সাথে কথা বলুন (+91 91993 42604)',
     trust_60yrs: '৬০+ বছর গয়াবাল পুরোহিত পরম্পরা',
     trust_45vedis: '৪৫টি পবিত্র বেদির নির্দেশিকা',
     trust_family: '১০০% ব্যক্তিগত পারিবারিক সহায়তা',

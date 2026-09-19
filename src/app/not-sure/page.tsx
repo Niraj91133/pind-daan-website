@@ -140,15 +140,15 @@ export default function NotSurePage() {
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
               <a
-                href="tel:+919876543210"
+                href="tel:+919199342604"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-amber-600 to-saffron-600 text-white font-bold text-xs shadow-sm"
               >
                 <Phone className="w-4 h-4" />
-                <span>Abhi Call Karein: +91 98765 43210</span>
+                <span>Abhi Call Karein: +91 91993 42604</span>
               </a>
 
               <a
-                href={`https://wa.me/919876543210?text=Namaste,%20my%20name%20is%20${name}.%20I%20need%20guidance%20regarding%20Gaya%20Ji%20Pind%20Daan.`}
+                href={`https://wa.me/919199342604?text=Namaste,%20my%20name%20is%20${name}.%20I%20need%20guidance%20regarding%20Gaya%20Ji%20Pind%20Daan.`}
                 target="_blank"
                 rel="noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-emerald-600 text-white font-bold text-xs shadow-sm"

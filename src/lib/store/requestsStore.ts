@@ -23,8 +23,8 @@ export const INITIAL_MOCK_REQUESTS: SewaRequestItem[] = [
   {
     id: 'PDS-884920',
     customerName: 'Shri Rajesh Sharma',
-    mobile: '9876543210',
-    whatsapp: '9876543210',
+    mobile: '9199342604',
+    whatsapp: '9199342604',
     city: 'Patna, Bihar',
     gotra: 'Kashyap',
     sewaId: '1-day-pind-daan',

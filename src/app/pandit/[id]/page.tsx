@@ -59,7 +59,7 @@ export default function PanditProfilePage() {
 
               <div className="pt-2 flex items-center gap-3">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919199342604"
                   className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-md bg-saffron-600 hover:bg-saffron-700 text-white font-bold text-xs"
                 >
                   <Phone className="w-4 h-4" />

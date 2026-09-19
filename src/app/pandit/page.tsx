@@ -109,7 +109,7 @@ export default function PanditDirectoryPage() {
                   Profile Dekhein
                 </Link>
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919199342604"
                   className="flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-full text-xs font-bold text-white bg-gradient-to-r from-amber-600 to-saffron-600 hover:opacity-95 shadow-sm transition-opacity"
                 >
                   <Phone className="w-3.5 h-3.5" />

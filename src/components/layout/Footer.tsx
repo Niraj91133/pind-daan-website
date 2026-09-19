@@ -18,7 +18,7 @@ export default function Footer() {
           col1Title: 'সেবা নির্দেশিকা',
           col2Title: 'গয়া জী ও পুরোহিত',
           col3Title: 'সহায়তা ও তথ্য',
-          rights: 'গয়া জী পিণ্ড সেবা। সর্বস্বত্ব সংরক্ষিত।',
+          rights: 'পিণ্ড দান সেবা। সর্বস্বত্ব সংরক্ষিত।',
           privacy: 'গোপনীয়তা নীতি',
           terms: 'সেবার শর্তাবলী',
           rules: 'শাস্ত্রীয় নির্দেশিকা',
@@ -32,7 +32,7 @@ export default function Footer() {
           col1Title: 'Sewa Directory',
           col2Title: 'Gaya Ji & Purohits',
           col3Title: 'Help & Knowledge',
-          rights: 'Gaya Ji Pind Sewa. All rights reserved.',
+          rights: 'Pind Daan Sewa. All rights reserved.',
           privacy: 'Privacy Policy',
           terms: 'Terms of Sewa',
           rules: 'Ritual Guidelines',
@@ -46,7 +46,7 @@ export default function Footer() {
           col1Title: 'सेवा निर्देशिका',
           col2Title: 'गया जी व पुरोहित',
           col3Title: 'सहायता व जानकारी',
-          rights: 'गया जी पिंड सेवा। सर्वाधिकार सुरक्षित।',
+          rights: 'पिंड दान सेवा। सर्वाधिकार सुरक्षित।',
           privacy: 'गोपनीयता नीति',
           terms: 'सेवा की शर्तें',
           rules: 'शास्त्रीय नियम',
@@ -72,7 +72,7 @@ export default function Footer() {
                 ॐ
               </div>
               <span className="font-sans text-xl font-extrabold tracking-tight text-white">
-                Gaya Ji Pind Sewa
+                Pind Daan Sewa
               </span>
             </div>
             
@@ -87,14 +87,14 @@ export default function Footer() {
 
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
-                href="tel:+919876543210"
+                href="tel:+919199342604"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold text-white bg-slate-900 border border-slate-800 hover:border-slate-700 transition-colors"
               >
                 <Phone className="w-3.5 h-3.5 text-amber-500" />
-                <span>+91 98765 43210</span>
+                <span>+91 91993 42604</span>
               </a>
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919199342604"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold text-white bg-emerald-950/80 border border-emerald-800/80 hover:bg-emerald-900 transition-colors"

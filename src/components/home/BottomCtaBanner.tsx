@@ -12,29 +12,29 @@ export default function BottomCtaBanner() {
     switch (lang) {
       case 'bn':
         return {
-          badge: 'গয়া জী পিণ্ডদান সেবা ডেস্ক',
+          badge: 'পিণ্ড দান সেবা ডেস্ক',
           title: 'আপনার সেবা। পূর্বপুরুষদের চরণে অর্পণ।',
           subtitle: 'শাস্ত্রীয় ঐতিহ্যকে শুদ্ধ রাখুন। আমাদের সমন্বয়কারী দল আপনার সাথে কথা বলে প্রতিটি প্রয়োজনীয় আচার ও তীর্থযাত্রাকে সহজ ও সুগম করে তুলবে।',
           startBtn: 'সেবা শুরু করুন',
-          callBtn: '+91 98765 43210',
+          callBtn: '+91 91993 42604',
           waBtn: 'হোয়াটসঅ্যাপ কোঅর্ডিনেটর'
         };
       case 'en':
         return {
-          badge: 'Gaya Ji Pind Daan Sewa Desk',
+          badge: 'Pind Daan Sewa Desk',
           title: 'Your Dedicated Pilgrimage Sewa.',
           subtitle: 'Pure Vedic traditions, transparent guidance, and dedicated family care. Our coordination desk makes every sacred ritual effortless.',
           startBtn: 'START SEWA REQUEST',
-          callBtn: '+91 98765 43210',
+          callBtn: '+91 91993 42604',
           waBtn: 'WhatsApp Coordinator'
         };
       default:
         return {
-          badge: 'गया जी पिंडदान सेवा डेस्क',
+          badge: 'पिंड दान सेवा डेस्क',
           title: 'आपकी सेवा। आपके पितरों के नाम।',
           subtitle: 'परंपरा को शुद्ध और पवित्र रखें। हमारी समन्वयक टीम आपसे बात करके हर जरूरी विधि एवं यात्रा को सहज और सुगम बनाएगी।',
           startBtn: 'सेवा शुरू करें',
-          callBtn: '+91 98765 43210',
+          callBtn: '+91 91993 42604',
           waBtn: 'व्हाट्सएप समन्वयक'
         };
     }
@@ -71,7 +71,7 @@ export default function BottomCtaBanner() {
           </Link>
 
           <a
-            href="tel:+919876543210"
+            href="tel:+919199342604"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-slate-900 hover:bg-slate-800 text-slate-200 font-semibold text-sm border border-slate-700 transition-all active:scale-[0.98]"
           >
             <Phone className="w-4 h-4 text-amber-500" />
@@ -79,7 +79,7 @@ export default function BottomCtaBanner() {
           </a>
 
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919199342604"
             target="_blank"
             rel="noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-emerald-950 hover:bg-emerald-900 text-emerald-300 border border-emerald-800 font-semibold text-sm transition-all active:scale-[0.98]"

@@ -81,7 +81,7 @@ export default function YatraAssistancePage() {
             </Link>
 
             <a
-              href="tel:+919876543210"
+              href="tel:+919199342604"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-md bg-parchment-200 text-mahogany-900 font-semibold text-xs border border-gold-600/30"
             >
               <Phone className="w-4 h-4 text-saffron-600" />

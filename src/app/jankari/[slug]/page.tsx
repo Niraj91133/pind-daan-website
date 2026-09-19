@@ -104,7 +104,7 @@ export default function ArticleDetailPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
             <a
-              href="tel:+919876543210"
+              href="tel:+919199342604"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3 rounded-md bg-saffron-600 hover:bg-saffron-700 text-white font-bold text-xs"
             >
               <Phone className="w-4 h-4" />

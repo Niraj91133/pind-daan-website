@@ -342,7 +342,7 @@ function SewaRequestContent() {
               <input
                 type="tel"
                 required
-                placeholder="e.g. 98765 43210"
+                placeholder="e.g. 91993 42604"
                 value={mobile}
                 onChange={(e) => setMobile(e.target.value)}
                 className="w-full p-3 rounded-md bg-parchment-50 border border-gold-600/30 text-xs text-mahogany-900 focus:outline-none focus:border-saffron-600"
@@ -524,7 +524,7 @@ function SewaRequestContent() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
             <a
-              href={`https://wa.me/919876543210?text=Namaste,%20my%20Sewa%20Request%20ID%20is%20${submittedRequest.id}`}
+              href={`https://wa.me/919199342604?text=Namaste,%20my%20Sewa%20Request%20ID%20is%20${submittedRequest.id}`}
               target="_blank"
               rel="noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-md bg-emerald-700 text-white font-bold text-xs"
